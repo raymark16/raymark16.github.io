@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+.body1 {
+  padding: 0;
+  margin: 0;
+  background-image: url(./library.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+p {
+  color: linear-gradient(to right, #00aaff, #00ff6c);
+}
+.ds {
+  background-color: white;
+  border: 2px solid black;
+  padding: 100px;
+}
+.login {
+  margin-top: 20px;
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 0 10px;
+  width: 100px;
+  text-decoration: solid;
+  color: white;
+}
+.logout {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+  text-decoration: solid;
+  color: white;
+}
+.addBook {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+  text-decoration: solid;
+  color: white;
+}
+
+.para1 {
+  color: white;
+}
